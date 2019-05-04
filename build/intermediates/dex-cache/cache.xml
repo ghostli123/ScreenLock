@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yang/Downloads/workspace/Lock_QinZDLock/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="/Users/yang/Downloads/workspace/Lock_QinZDLock/build/intermediates/pre-dexed/debug/android-support-v4-04ddcf926447c47187782e0b26b4ed5829b6be32.jar" />
+    </item>
+    <item
+        jar="/Users/yang/Downloads/workspace/Lock_QinZDLock/libs/umeng-analytics-v5.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cdbe5b692334ae8452fa5aa9ba2982fef4a6fff2">
+        <dex dex="/Users/yang/Downloads/workspace/Lock_QinZDLock/build/intermediates/pre-dexed/debug/umeng-analytics-v5.4.1-11e37c4471a504fdc18ba6215e34b3a285738f0d.jar" />
+    </item>
+    <item
+        jar="/Users/yang/Downloads/workspace/Lock_QinZDLock/libs/com.umeng.message.lib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="677c0952a131b25534391ee916f180de4fde8371">
+        <dex dex="/Users/yang/Downloads/workspace/Lock_QinZDLock/build/intermediates/pre-dexed/debug/com.umeng.message.lib-c59d38c34f1864247a4cfb54bb2522a6b3e4886e.jar" />
+    </item>
+
+</items>

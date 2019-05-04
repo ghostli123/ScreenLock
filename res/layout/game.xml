@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+    <TextView android:id="@+id/socre"  
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+			android:layout_marginTop="20dip"
+			android:layout_marginLeft="10dip"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:textStyle="bold"
+		    android:text="Stage one, Score 0">
+		</TextView>
+    
+    <TextView android:id="@+id/text_question"  
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+			android:layout_marginTop="5dip"
+			android:layout_marginLeft="10dip"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:textStyle="bold"
+		    android:text="@string/question">
+		</TextView>
+    
+	<com.qin.zdlock.SliderRelativeLayout android:id="@+id/slider_layout"
+	    android:layout_width="fill_parent"
+		android:layout_height="63dip" 
+		android:layout_gravity="center"
+		android:layout_marginTop="15dip"
+		android:background="@drawable/step2_tip_2"
+		>
+
+        <!-- Lock OK icon  -->
+		<ImageView android:id="@+id/getup_finish_ico"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="10dip"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/slider_ico_alarm">
+		</ImageView>
+
+
+        <!-- Arrow Animation -->
+        <ImageView android:id="@+id/getup_arrow"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="20dip"
+		    android:layout_toLeftOf="@id/getup_finish_ico"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:background="@anim/slider_tip_anim">
+	    </ImageView>
+
+        <!-- hint_unlock -->
+        <TextView  android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_toLeftOf="@id/getup_arrow"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:textColor="#FFFFFF"
+			android:textStyle="bold"
+		    android:text="@string/hint_unlock">
+		</TextView>
+
+        <!-- slider img -->
+        <TextView  android:id="@+id/slider_icon"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_marginRight="5dip"
+		    android:drawableTop="@drawable/getup_slider_ico_normal">
+		</TextView>
+
+
+	</com.qin.zdlock.SliderRelativeLayout>
+	
+	<com.qin.zdlock.SliderRelativeLayout android:id="@+id/slider_layout2"
+	    android:layout_width="fill_parent"
+		android:layout_height="63dip" 
+		android:layout_gravity="center"
+		android:layout_marginTop="20dip"
+		android:background="@drawable/step2_tip_2"
+		>
+
+        <!-- Lock OK icon  -->
+		<ImageView android:id="@+id/getup_finish_ico"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="10dip"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/slider_ico_alarm">
+		</ImageView>
+
+
+        <!-- Arrow Animation -->
+        <ImageView android:id="@+id/getup_arrow2"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="20dip"
+		    android:layout_toLeftOf="@id/getup_finish_ico"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:background="@anim/slider_tip_anim">
+	    </ImageView>
+
+        <!-- hint_unlock -->
+        <TextView  android:id="@+id/text_view2"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_toLeftOf="@id/getup_arrow2"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:textColor="#FFFFFF"
+			android:textStyle="bold"
+		    android:text="@string/hint_unlock2">
+		</TextView>
+
+        <!-- slider img -->
+        <TextView  android:id="@+id/slider_icon"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_marginRight="5dip"
+		    android:drawableTop="@drawable/getup_slider_ico_normal">
+		</TextView>
+
+
+	</com.qin.zdlock.SliderRelativeLayout>
+	
+	<com.qin.zdlock.SliderRelativeLayout android:id="@+id/slider_layout3"
+	    android:layout_width="fill_parent"
+		android:layout_height="63dip" 
+		android:layout_gravity="center"
+		android:layout_marginTop="20dip"
+		android:background="@drawable/step2_tip_2"
+		>
+
+        <!-- Lock OK icon  -->
+		<ImageView android:id="@+id/getup_finish_ico"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="10dip"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/slider_ico_alarm">
+		</ImageView>
+
+
+        <!-- Arrow Animation -->
+        <ImageView android:id="@+id/getup_arrow3"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="20dip"
+		    android:layout_toLeftOf="@id/getup_finish_ico"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:background="@anim/slider_tip_anim">
+	    </ImageView>
+
+        <!-- hint_unlock -->
+        <TextView  android:id="@+id/text_view3"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_toLeftOf="@id/getup_arrow3"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:textColor="#FFFFFF"
+			android:textStyle="bold"
+		    android:text="@string/hint_unlock3">
+		</TextView>
+
+        <!-- slider img -->
+        <TextView  android:id="@+id/slider_icon"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_marginRight="5dip"
+		    android:drawableTop="@drawable/getup_slider_ico_normal">
+		</TextView>
+
+
+	</com.qin.zdlock.SliderRelativeLayout>
+
+	
+	
+	<com.qin.zdlock.SliderRelativeLayout android:id="@+id/slider_layout4"
+	    android:layout_width="fill_parent"
+		android:layout_height="63dip" 
+		android:layout_gravity="center"
+		android:layout_marginTop="20dip"
+		android:background="@drawable/step2_tip_2"
+		>
+
+        <!-- Lock OK icon  -->
+		<ImageView android:id="@+id/getup_finish_ico"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="10dip"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/slider_ico_alarm">
+		</ImageView>
+
+
+        <!-- Arrow Animation -->
+        <ImageView android:id="@+id/getup_arrow4"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="20dip"
+		    android:layout_toLeftOf="@id/getup_finish_ico"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:background="@anim/slider_tip_anim">
+	    </ImageView>
+
+        <!-- hint_unlock -->
+        <TextView  android:id="@+id/text_view4"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_toLeftOf="@id/getup_arrow4"
+		    android:layout_alignTop="@id/getup_finish_ico"
+		    android:textColor="#FFFFFF"
+			android:textStyle="bold"
+		    android:text="@string/hint_unlock4">
+		</TextView>
+
+        <!-- slider img -->
+        <TextView  android:id="@+id/slider_icon"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:layout_marginRight="5dip"
+		    android:drawableTop="@drawable/getup_slider_ico_normal">
+		</TextView>
+
+	</com.qin.zdlock.SliderRelativeLayout>
+
+	
+
+	<Button
+	    android:id="@+id/tools"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="jump"
+	    android:visibility="gone"
+	    android:layout_marginTop="20dip"
+	    android:text="Correct, plus 10!! go to next challenge" />
+	
+</LinearLayout>

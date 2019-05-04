@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/einstein"
+    tools:context=".MainActivity" >
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Memory Test" />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="Start"
+        android:text="Start Game" />
+
+    <Button
+        android:id="@+id/highscores"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exit"
+        android:layout_below="@+id/start"
+        android:layout_marginTop="18dp"
+        android:onClick="Highscores"
+        android:text="High Scores" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/start"
+        android:layout_below="@+id/highscores"
+        android:layout_marginTop="20dp"
+        android:onClick="Exit"
+        android:text="Exit" />
+
+   
+
+</RelativeLayout>

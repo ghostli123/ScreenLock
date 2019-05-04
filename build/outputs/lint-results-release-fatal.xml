@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 26.1.1">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/getup_finish_ico`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  &lt;ImageView android:id=&quot;@+id/getup_finish_ico&quot;"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="88"
+            column="14"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="37"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/slider_icon`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        &lt;TextView  android:id=&quot;@+id/slider_icon&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="120"
+            column="20"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="69"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/getup_finish_ico`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  &lt;ImageView android:id=&quot;@+id/getup_finish_ico&quot;"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="139"
+            column="14"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="37"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/slider_icon`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        &lt;TextView  android:id=&quot;@+id/slider_icon&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="171"
+            column="20"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="69"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/getup_finish_ico`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  &lt;ImageView android:id=&quot;@+id/getup_finish_ico&quot;"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="192"
+            column="14"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="37"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/slider_icon`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        &lt;TextView  android:id=&quot;@+id/slider_icon&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="224"
+            column="20"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/game.xml"
+            line="69"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/getup_finish_ico`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  &lt;ImageView android:id=&quot;@+id/getup_finish_ico&quot;"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="79"
+            column="14"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="28"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/slider_icon`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        &lt;TextView  android:id=&quot;@+id/slider_icon&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="111"
+            column="20"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="60"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/getup_finish_ico`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  &lt;ImageView android:id=&quot;@+id/getup_finish_ico&quot;"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="130"
+            column="14"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="28"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/slider_icon`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        &lt;TextView  android:id=&quot;@+id/slider_icon&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="162"
+            column="20"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="60"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/getup_finish_ico`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="  &lt;ImageView android:id=&quot;@+id/getup_finish_ico&quot;"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="183"
+            column="14"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="28"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/slider_icon`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        &lt;TextView  android:id=&quot;@+id/slider_icon&quot;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="215"
+            column="20"/>
+        <location
+            file="/Users/yang/Downloads/workspace/Lock_QinZDLock/res/layout/main.xml"
+            line="60"
+            column="20"/>
+    </issue>
+
+</issues>

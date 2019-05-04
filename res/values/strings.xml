@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">DynAuth</string>
+    <string name="hint_unlock">Avata</string>
+    <string name="hint_unlock2">Avengers</string>
+    <string name="hint_unlock3">Dark Knight</string>
+    <string name="hint_unlock4">Titanic</string>
+    <string name="question">What movie were you watching by using QQmovie yesterday night?</string>
+</resources>

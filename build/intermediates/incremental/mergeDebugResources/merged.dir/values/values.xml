@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">DynAuth</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="hint_unlock">Avata</string>
+    <string name="hint_unlock2">Avengers</string>
+    <string name="hint_unlock3">Dark Knight</string>
+    <string name="hint_unlock4">Titanic</string>
+    <string name="question">What movie were you watching by using QQmovie yesterday night?</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Theme.FloatActivity" parent="android:style/Theme.Dialog">
+                <item name="android:windowBackground">@drawable/float_box</item>
+        </style>
+</resources>

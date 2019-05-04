@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yang/Downloads/workspace/Lock_QinZDLock/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/yang/Downloads/workspace/Lock_QinZDLock/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "116,55,161,207,257,310,359",
+                        "endColumns": "44,60,45,49,52,48,99",
+                        "endOffsets": "156,111,202,252,305,354,454"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "169,214,275,321,371,424,473",
+                        "endColumns": "44,60,45,49,52,48,99",
+                        "endOffsets": "209,270,316,366,419,468,568"
+                    }
+                },
+                {
+                    "source": "/Users/yang/Downloads/workspace/Lock_QinZDLock/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "89,147",
+                        "endColumns": "57,55",
+                        "endOffsets": "142,198"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "/Users/yang/Downloads/workspace/Lock_QinZDLock/res/values/styles.xml",
+                    "from": {
+                        "startLines": "9,18,22",
+                        "startColumns": "4,4,8",
+                        "startOffsets": "274,598,763",
+                        "endLines": "15,20,24",
+                        "endColumns": "12,12,16",
+                        "endOffsets": "560,753,931"
+                    },
+                    "to": {
+                        "startLines": "11,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "573,864,1024",
+                        "endLines": "17,20,23",
+                        "endColumns": "12,12,16",
+                        "endOffsets": "859,1019,1192"
+                    }
+                }
+            ]
+        }
+    ]
+}
